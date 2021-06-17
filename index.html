@@ -1,0 +1,63 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="" id="survey-form">
+  <div>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+  </div>
+  <div>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+  <hr>
+    <label for="name" id="name-label">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="" id="email" required placeholder="Enter Your Email">
+    <label for="number" id="number-label">Number</label>
+    <input type="number" name="number" id="number" required min="10" max="10" placeholder="Enter Your Mobile No.">
+    <label for="dropdown" id="drop">What Is Your Favorite Feature Of FREE CODE CAMP?</label>
+    <select name="" id="dropdown" required>
+      <option value="audi">Challenges</option>
+      <option value="audi">Projects</option>
+      <option value="audi">Open Source</option>
+      <option value="audi">Community</option>
+    </select>
+    <div id="Radio-con">
+    <h3>Do You Recommend FreeCodeCamp To Your Friend</h3>
+    <input type="radio" id="Yes" name="gender" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="No" name="gender" value="No">
+    <label for="No">No</label><br>
+    <input type="radio" id="May-Be" name="gender" value="May-Be">
+    <label for="May-Be">May Be</label>
+    <div id="radio">
+    </div>
+    <div id="radio">
+      <h3>What would you like to see improved? (Check all that apply)</h3>
+      <div class="radio-opt">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> FRONT END PROJECTS</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">BACK END PROJECTS</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">DATA VISUALIZATION</label><br>
+      </div>
+    </div>
+    <textarea name="" id="area" cols="10" rows="8" placeholder="Enter Your Comment Here..."></textarea>
+    <div class="btn-con">
+      <input type="submit" id="submit">
+      <input type="reset" value="Clear All" id="reset">
+    </div>
+  </form>
+</body>
+
+</html>
